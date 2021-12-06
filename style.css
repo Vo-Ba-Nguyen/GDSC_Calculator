@@ -1,0 +1,44 @@
+.calculator-screen{
+    background-color: black;
+    padding: 5px 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#result{
+    color: white;
+}
+.calculator-keyboard{
+    background-color: blue;
+    height: 10px;
+}
+.calculator{
+    width: 40%;
+    margin: auto;
+}
+.function-keys{
+    display: flex;
+    flex-direction: row;
+}
+.key{
+    flex: 0 0 25%;
+    padding: 10px;
+    font-size: 10px;
+}
+.key-number-container{
+    display: flex;
+    flex-direction: row;
+}
+.keys-number{
+    display: flex;
+    flex: 0 0 75%;
+    flex-wrap: wrap;
+}
+.key-number{
+    flex: 0 0 33.33%;
+    padding: 10px;
+}
+.equal-key{
+    border-bottom-right-radius: 10px;
+    background-color: orange;
+    flex:auto;
+}
